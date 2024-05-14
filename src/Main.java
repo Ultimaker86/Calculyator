@@ -3,9 +3,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите два числа (арабских либо римских");
-        System.out.println("Input: ");git remote add origin git@github.com:Ultimaker86/Kalkulyator.git
-        git branch -M main
-        git push -u origin main
+        System.out.println("Input: ");
         String input = scanner.nextLine(); //ввод пользователем значений и операции;
         System.out.println(calc(input));
     }
